@@ -19,10 +19,10 @@ from collections import OrderedDict
     
 def connect():
     #Keep the "Consumer Secret" a secret. This key should never be human-readable in your application
-    consumer_key = 'ZBXZillMnWl3ONqvOavIlmznw'
-    consumer_secret = 'Yac9alcZMhau3ECpYNkQYhd1U7Qv8QAb4nJoTerrNyyfpWoDqj'
-    access_token = '772160982424522752-Mfc3ym3z4WorL48ikxzLBFkLE29unsF'
-    access_token_secret = 'h5DneSmTNOcbzgfkXg7wlJlP2XArwFrC5Zdhc7Cj1deoB'
+    consumer_key = 'xxx'
+    consumer_secret = 'xxx'
+    access_token = 'xxx-xxx'
+    access_token_secret = 'xxx'
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
